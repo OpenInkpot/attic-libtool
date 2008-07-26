@@ -1,0 +1,13 @@
+Index: libtool-2.2.2/tests/demo-nopic.test
+===================================================================
+--- libtool-2.2.2.orig/tests/demo-nopic.test	2007-09-20 22:17:55.000000000 +0200
++++ libtool-2.2.2/tests/demo-nopic.test	2008-04-06 14:04:58.000000000 +0200
+@@ -26,7 +26,7 @@
+ . tests/defs || exit 1
+ 
+ case "$host" in
+-hppa*|x86_64*|s390*)
++hppa*|x86_64*|s390*|mips*)
+ 	func_skip "$host doesn't like non-PIC shared libs"
+ 	;;
+ *-solaris*|*-sunos*)

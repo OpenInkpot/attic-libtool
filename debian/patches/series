@@ -1,0 +1,4 @@
+link_all_deplibs.patch
+netbsdelf.patch
+version_type.patch
+nopic-mips.patch
